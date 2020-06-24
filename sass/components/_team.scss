@@ -8,7 +8,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: var(--section-bg-color);
+  background-color: $section-bg-color;
 }
 
 .team-list > .item {
@@ -21,7 +21,7 @@
 .team-list-card {
   padding-top: 30px;
   padding-bottom: 24px;
-  background-color: var(--primary-bg-color);
+  background-color: $primary-bg-color;
 }
 .team-list-title {
   margin: 0;
@@ -33,7 +33,7 @@
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 .team-list-text {
   margin: 0;
@@ -46,7 +46,7 @@
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--primary-text-color);
+  color: $primary-text-color;
 }
 .team-list-icon {
   display: flex;
@@ -71,8 +71,8 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
-    fill: var(--primary-bg-color);
-    background-color: var(--accent-color);
+    fill: $primary-bg-color;
+    background-color: $accent-color;
   }
 }
 .team-list-icon .linkedin {

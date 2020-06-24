@@ -1,22 +1,18 @@
-:root {
-  --primary-text-color: #757575;
-  --title-text-color: #212121;
-  --accent-color: #2196f3;
-  --other-text-color: #ffffff;
-  --primary-bg-color: #ffffff;
-  --button-text-color: #ffffff;
-  --footer-bg-color: #2f303a;
-  --header-bg-color: #ffffff;
-  --address-text-color: rgba(255, 255, 255, 0.6);
-  --footer-inscription-color: rgba(255, 255, 255, 0.4);
-  --section-bg-color: #f5f4fa;
-  --portfolio-bg-color: #ffffff;
-  --advantages-border-color: #ececec;
-  --footer-border-color: rgba(255, 255, 255, 0.1);
-  --portfolio-header-border-color: #ececec;
-  --portfolio-image-border-color: #eeeeee;
-  --backdrop-background-color: rgba(0, 0, 0, 0.2);
-}
+$primary-text-color: #757575;
+$title-text-color: #212121;
+$accent-color: #2196f3;
+$other-text-color: #ffffff;
+$primary-bg-color: #ffffff;
+$button-text-color: #ffffff;
+$footer-bg-color: #2f303a;
+$header-bg-color: #ffffff;
+$address-text-color: rgba(255, 255, 255, 0.6);
+$section-bg-color: #f5f4fa;
+$portfolio-bg-color: #ffffff;
+$advantages-border-color: #ececec;
+$portfolio-header-border-color: #ececec;
+$portfolio-image-border-color: #eeeeee;
+$backdrop-background-color: rgba(0, 0, 0, 0.2);
 
 html {
   box-sizing: border-box;
@@ -35,8 +31,8 @@ html {
 
   font-family: Roboto, sans-serif;
   font-style: normal;
-  color: var(--primary-text-color);
-  background-color: var(--primary-bg-color);
+  color: $primary-text-color;
+  background-color: $primary-bg-color;
 }
 a {
   text-decoration: none;
@@ -65,7 +61,7 @@ a {
   line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 .visually-hidden {
   position: absolute;

@@ -366,13 +366,7 @@ a {
   text-align: center;
 }
 
-.service-order-form-title,
-.service-order-form-field,
-.service-order-form-field-agreement,
-.service-order-form-label,
-.service-order-form-input,
-.service-order-form-textarea,
-.service-order-form-submit {
+.service-order-form-title, .service-order-form-field, .service-order-form-input, .service-order-form-label, .service-order-form-textarea, .service-order-form-field-agreement, .service-order-form-submit {
   margin: 0;
   padding: 0;
 }
@@ -638,10 +632,6 @@ a {
 
 .advantages-list .technology::before {
   background-image: url("../images/cosmonaut.svg");
-}
-
-.advantages-images {
-  display: inline-block;
 }
 
 .advantages-list-text {

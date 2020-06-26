@@ -12,11 +12,10 @@
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: $accent-color;
+  &-studio {
+    color: $title-text-color;
+  }
 }
-.logo-studio {
-  color: $title-text-color;
-}
-
 .main-nav,
 .container-nav {
   display: flex;
@@ -24,9 +23,9 @@
 }
 .site-nav .item {
   margin-right: 50px;
-}
-.site-nav .item:last-child {
-  margin-right: 0;
+  &:last-child {
+    margin-right: 0;
+  }
 }
 .site-nav .link {
   display: block;
@@ -63,7 +62,6 @@
     background-color: $accent-color;
   }
 }
-
 .communication {
   /* outline: 1px solid green; */
   display: flex;
@@ -72,11 +70,10 @@
 }
 .communication .item {
   align-items: center;
+  & + .item {
+    margin-left: 30px;
+  }
 }
-.communication .item + .item {
-  margin-left: 30px;
-}
-
 .communication .link {
   /* outline: 1px solid red; */
   display: flex;

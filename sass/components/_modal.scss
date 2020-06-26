@@ -49,16 +49,16 @@
 .service-order-form {
   /* outline: 2px solid tomato; */
   text-align: center;
-}
-.service-order-form-title,
-.service-order-form-field,
-.service-order-form-field-agreement,
-.service-order-form-label,
-.service-order-form-input,
-.service-order-form-textarea,
-.service-order-form-submit {
-  margin: 0;
-  padding: 0;
+  &-title,
+  &-field,
+  &-input,
+  &-label,
+  &-textarea,
+  &-field-agreement,
+  &-submit {
+    margin: 0;
+    padding: 0;
+  }
 }
 .service-order-form-title {
   display: inline-block;
